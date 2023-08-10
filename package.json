@@ -1,0 +1,21 @@
+{
+  "name": "reddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.5.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "oceanic.js": "^1.7.1",
+    "puppeteer": "^21.0.1",
+    "quick.db": "^9.1.7",
+    "snoowrap": "^1.23.0"
+  }
+}
