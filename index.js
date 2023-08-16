@@ -16,7 +16,7 @@ const r = new snoowrap({
     password: process.env.reddit_password
 });
 
-const client = new oceanic.Client({ auth: process.env.discord_token, gateway: { intents: ["GUILDS", "GUILD_MESSAGES", "MESSAGE_CONTENT"] } });
+const client = new oceanic.Client({ auth: 'Bot ' + process.env.discord_token, gateway: { intents: ["GUILDS", "GUILD_MESSAGES", "MESSAGE_CONTENT"] } });
 const db = new QuickDB();
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
